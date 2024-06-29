@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhbnN5QGdtYWlsLmNvbSIsImV4cGlyeSI6MTcxOTczNzQyMSwidXNlcklkIjoxfQ.1EJUL0dqs3Tnmei2JigNI8dIf7QHCQD7imQmx_8T2Ls
+
+{
+    "name": "Test Event", 
+    "description": "Test description",
+    "location": "Pansy",
+    "datetime": "2024-07-01T12:00:00.000Z"
+}
